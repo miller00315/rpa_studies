@@ -19,9 +19,9 @@ r.close()
 texto_email = 'A cotação do dolar hoje ' + str(pd.Timestamp('today')) + ' é ' + dollar_value
 
 # email remetente, senha, destinatário
-de = 'miller00315@gmail.com'
-senha = 'Oitavo#123'
-para = 'miller00315@gmail.com'
+de = 'emailtest@email.com'
+senha = '*********'
+para = 'emailtest@email.com'
 
 # Setup the MIME
 message = MIMEMultipart()
