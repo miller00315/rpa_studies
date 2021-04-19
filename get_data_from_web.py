@@ -21,5 +21,7 @@ while count_page <= 3:
 
 r.close()
 o.remove('temp.csv')
+csv_xlsx = pd.read_csv(r'webTable.csv')
+csv_xlsx.to_excel(r'converted_to_xls.xlsx')
 
 
