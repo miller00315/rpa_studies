@@ -14,7 +14,7 @@ try:
         schedule.run_pending()
         time.sleep(1)
 
-# Para fazer
+# Para fazer string constructor utilize o f antes da string
 except IndexError as e:
     email_body = f'''
         O bot apresento problemas, favor verificar:
